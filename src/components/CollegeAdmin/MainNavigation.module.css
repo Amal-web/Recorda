@@ -1,0 +1,12 @@
+.iconName{
+    font-size: small;
+    text-align: center;
+}
+@media (max-width:620px){
+    .iconName{
+        font-size: 0.55rem;
+        margin: 0;
+        text-align: center;
+    }
+
+}

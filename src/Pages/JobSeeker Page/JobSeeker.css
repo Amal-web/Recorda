@@ -1,0 +1,55 @@
+body {
+   background-color: #635985;
+}
+.components{
+   position:relative
+}
+.Navbar{
+   position: fixed;
+   top: 0;
+}
+.UserBody{
+   position: absolute;
+   min-height: 10000px;
+   top: 50px;
+   display: flex;
+   flex-grow: 1;
+   width: 100%;
+
+}
+.LeftSide{
+   margin: 0;
+   padding: 0;
+   margin: -10px;
+   flex-grow: 1; 
+   position: fixed;
+   min-height: 100vh;
+   top: 80px;
+   width: 25%;
+   background-color: #11144C;
+   color: white;
+   font-weight: 300;
+   
+}
+.RightSide{
+   
+   flex-grow: 1;
+   position: absolute;
+   min-height: 100vh;
+   top: 50px;
+   right: 0;
+   width: 70vw;
+   
+
+}
+.button{
+   text-transform: capitalize;
+}
+
+.linktag{
+   color:white;
+}
+.LinkAnchorTag{
+   color:white;
+   text-decoration: none   ;
+}
